@@ -1,0 +1,188 @@
+// -- Use of Glyphicons Social ---------------------------------------------- //
+// <span aria-hidden="true" data-icon="&#xe001;" class="glyph-social glyph-social-pinterest"></span>
+
+@font-face{
+  font-family: "Glyphicons Social";
+  src: url("/fonts/glyphicons/Glyphicons-Social.eot");
+  src: url("/fonts/glyphicons/Glyphicons-Social.eot?#iefix") format("embedded-opentype"),
+       url("/fonts/glyphicons/Glyphicons-Social.woff2") format("woff2"),
+       url("/fonts/glyphicons/Glyphicons-Social.woff") format("woff"),
+       url("/fonts/glyphicons/Glyphicons-Social.ttf") format("truetype"),
+       url("/fonts/glyphicons/Glyphicons-Social.svg#GlyphiconsSocial") format("svg");
+}
+
+.glyph-social{
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: "Glyphicons Social";
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.glyph-social.x05{ font-size: 12px }
+
+.glyph-social.x2{ font-size: 48px }
+
+.glyph-social.x3{ font-size: 72px }
+
+.glyph-social.x4{ font-size: 96px }
+
+.glyph-social.x5{ font-size: 120px }
+
+.glyph-social.light:before{ color: #F2F2F2 }
+
+.glyph-social.drop:before{ text-shadow: -1px 1px 3px rgba(0, 0, 0, 0.3) }
+
+.glyph-social.flip{ -moz-transform: scaleX(-1); -o-transform: scaleX(-1); -webkit-transform: scaleX(-1); transform: scaleX(-1); filter: FlipH; -ms-filter: "FlipH" }
+
+.glyph-social.flipv{ -moz-transform: scaleY(-1); -o-transform: scaleY(-1); -webkit-transform: scaleY(-1); transform: scaleY(-1); filter: FlipV; -ms-filter: "FlipV" }
+
+.glyph-social.rotate90{ -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg) }
+
+.glyph-social.rotate180{ -webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); -ms-transform: rotate(180deg); transform: rotate(180deg) }
+
+.glyph-social.rotate270{ -webkit-transform: rotate(270deg); -moz-transform: rotate(270deg); -ms-transform: rotate(270deg); transform: rotate(270deg) }
+
+.glyph-social-pinterest:before{ content: "\E001" }
+
+.glyph-social-dropbox:before{ content: "\E002" }
+
+.glyph-social-google-plus:before{ content: "\E003" }
+
+.glyph-social-jolicloud:before{ content: "\E004" }
+
+.glyph-social-yahoo:before{ content: "\E005" }
+
+.glyph-social-blogger:before{ content: "\E006" }
+
+.glyph-social-picasa:before{ content: "\E007" }
+
+.glyph-social-amazon:before{ content: "\E008" }
+
+.glyph-social-tumblr:before{ content: "\E009" }
+
+.glyph-social-wordpress:before{ content: "\E010" }
+
+.glyph-social-instapaper:before{ content: "\E011" }
+
+.glyph-social-evernote:before{ content: "\E012" }
+
+.glyph-social-xing:before{ content: "\E013" }
+
+.glyph-social-e-mail-envelope:before{ content: "\E014" }
+
+.glyph-social-dribbble:before{ content: "\E015" }
+
+.glyph-social-deviantart:before{ content: "\E016" }
+
+.glyph-social-read-it-later:before{ content: "\E017" }
+
+.glyph-social-linked-in:before{ content: "\E018" }
+
+.glyph-social-gmail:before{ content: "\E019" }
+
+.glyph-social-pinboard:before{ content: "\E020" }
+
+.glyph-social-behance:before{ content: "\E021" }
+
+.glyph-social-github:before{ content: "\E022" }
+
+.glyph-social-youtube:before{ content: "\E023" }
+
+.glyph-social-open-id:before{ content: "\E024" }
+
+.glyph-social-foursquare:before{ content: "\E025" }
+
+.glyph-social-quora:before{ content: "\E026" }
+
+.glyph-social-badoo:before{ content: "\E027" }
+
+.glyph-social-spotify:before{ content: "\E028" }
+
+.glyph-social-stumbleupon:before{ content: "\E029" }
+
+.glyph-social-readability:before{ content: "\E030" }
+
+.glyph-social-facebook:before{ content: "\E031" }
+
+.glyph-social-twitter:before{ content: "\E032" }
+
+.glyph-social-instagram:before{ content: "\E033" }
+
+.glyph-social-posterous-spaces:before{ content: "\E034" }
+
+.glyph-social-vimeo:before{ content: "\E035" }
+
+.glyph-social-flickr:before{ content: "\E036" }
+
+.glyph-social-last-fm:before{ content: "\E037" }
+
+.glyph-social-rss:before{ content: "\E038" }
+
+.glyph-social-skype:before{ content: "\E039" }
+
+.glyph-social-e-mail:before{ content: "\E040" }
+
+.glyph-social-vine:before{ content: "\E041" }
+
+.glyph-social-myspace:before{ content: "\E042" }
+
+.glyph-social-goodreads:before{ content: "\E043" }
+
+.glyph-social-apple:before{ content: "\E044" }
+
+.glyph-social-windows:before{ content: "\E045" }
+
+.glyph-social-yelp:before{ content: "\E046" }
+
+.glyph-social-playstation:before{ content: "\E047" }
+
+.glyph-social-xbox:before{ content: "\E048" }
+
+.glyph-social-android:before{ content: "\E049" }
+
+.glyph-social-ios:before{ content: "\E050" }
+
+.glyph-social-wikipedia:before{ content: "\E051" }
+
+.glyph-social-pocket:before{ content: "\E052" }
+
+.glyph-social-steam:before{ content: "\E053" }
+
+.glyph-social-soundcloud:before{ content: "\E054" }
+
+.glyph-social-slideshare:before{ content: "\E055" }
+
+.glyph-social-netflix:before{ content: "\E056" }
+
+.glyph-social-paypal:before{ content: "\E057" }
+
+.glyph-social-google-drive:before{ content: "\E058" }
+
+.glyph-social-linux-foundation:before{ content: "\E059" }
+
+.glyph-social-ebay:before{ content: "\E060" }
+
+.glyph-social-bitbucket:before{ content: "\E061" }
+
+.glyph-social-whatsapp:before{ content: "\E062" }
+
+.glyph-social-buffer:before{ content: "\E063" }
+
+.glyph-social-medium:before{ content: "\E064" }
+
+.glyph-social-stackoverflow:before{ content: "\E065" }
+
+.glyph-social-linux:before{ content: "\E066" }
+
+.glyph-social-vk:before{ content: "\E067" }
+
+.glyph-social-snapchat:before{ content: "\E068" }
+
+.glyph-social-etsy:before{ content: "\E069" }
+
+.glyph-social-stackexchange:before{ content: "\E070" }

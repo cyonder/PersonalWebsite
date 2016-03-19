@@ -1,0 +1,80 @@
+.notes{
+
+  h1.title{
+    margin-bottom: 5rem;
+    text-align: center;
+  }
+
+  h6.title-description{
+    margin: auto 20%;
+    text-align: center;
+  }
+
+  .form-display{
+    background: rgba(#FFFFFF, 0.5);
+    border: 3px solid $color-brand;
+    box-shadow: 0px 3px 8px rgba(black, 0.3);
+    display: flex;
+    margin: 5rem 5rem auto 5rem;
+    margin-top: 5rem;
+
+
+
+    .mc-field-group{
+      flex: 2;
+      position: relative;
+      border-right: 3px solid $color-brand;
+    }
+
+    input{
+      background: none;
+      border: 0;
+      border-radius: 0;
+      display: block;
+      font-size: 1.8rem;
+      height: 6rem;
+      margin-bottom: 0;
+      padding-top: 2rem;
+      position: relative;
+      width: 100%;
+
+
+      &:focus{ border: 0; }
+
+      &[type="submit"]{
+        background-color: $color-brand;
+        color: #FFFFFF;
+        font-size: 2rem;
+        flex: 1;
+        padding: 0 1.5rem;
+
+        &:hover{
+          background-color: $color-secondary;
+          color: $color-brand;
+          -webkit-transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out;
+        }
+      }
+    }
+
+    label{
+      color: $color-brand;
+      position: absolute;
+      font-size: 1.6rem;
+      left: 1rem;
+      z-index: 2;
+    }
+  }
+
+  @media(max-width: 920px){
+    .form-display{
+      display: block;
+
+      .mc-field-group{
+        border-right: none;
+        border-bottom: 3px solid $color-brand;
+      }
+    }
+  }
+  
+}

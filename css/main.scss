@@ -1,0 +1,35 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+// -------------------------------------------------------------------------- //
+// -- Cagdas Yonder Assets Kit ---------------------------------------------- //
+// -- Version: 1.0.0 -------------------------------------------------------- //
+// -------------------------------------------------------------------------- //
+
+// -- Base
+@import "normalize";
+@import "variables";
+@import "helpers";
+@import "typography";
+@import "standardize";
+@import "elements";
+
+// -- IcoMoon
+@import "icomoon";
+
+// -- Glyphicons
+// @import "glyphicons";
+// @import "glyphicons-filetypes";
+// @import "glyphicons-halflings";
+@import "glyphicons-social";
+
+// -- Site
+@import "syntax-highlighting";
+@import "layout";
+@import "index";
+@import "about";
+@import "notes";
+@import "post";

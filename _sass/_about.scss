@@ -1,0 +1,36 @@
+.about{
+  // background-color: pink;
+  width: 100%;
+
+  .color-text-brand{
+    background-color: #FFFFFF;
+    border-radius: $border-radius-base;
+    color: $color-brand;
+    padding: 0.3rem;
+  }
+
+  img[alt="Me"]{
+    position: absolute;
+    height: 48rem;
+    margin-top: -2rem;
+    margin-left: -2rem;
+    border-bottom-right-radius: 120px;
+  }
+
+  img[alt="About Me"]{
+    margin-left: 10rem;
+    max-height: 24rem;
+    margin-left: 30%;
+  }
+
+  .about-description{
+    margin-top: 5rem;
+    position: absolute;
+    left: 50%;
+    right: 10%;
+  }
+
+  .social-container{
+    font-size: 2.5rem;
+  }
+}

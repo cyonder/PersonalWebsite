@@ -1,0 +1,23 @@
+article.post{
+  background-color: #FFFFFF;
+  margin-top: -2rem; // Stick post top
+  padding: 2rem 4rem;
+
+  #disqus_thread{
+    margin-top: 2rem;
+  }
+
+  img{ max-width: 100%; } // Prevent image overflowing
+
+  .spacer{ margin-bottom: 2rem; } // Extra space for listings.
+
+  header.post-header{
+    margin-bottom: 2rem;
+  }
+}
+
+@media(max-width: 775px){
+  article.post{
+    margin-top: 2rem;
+  }
+}

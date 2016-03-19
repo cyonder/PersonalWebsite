@@ -1,0 +1,38 @@
+// -------------------------------------------------------------------------- //
+// -- Colors ---------------------------------------------------------------- //
+// -------------------------------------------------------------------------- //
+
+$color-brand:         #307FB7 !default;
+$color-secondary:     #FFFFFF !default;
+// $color-success:       #5CB85C !default;
+// $color-info:          #5BC0DE !default;
+// $color-warning:       #F0AD4E !default;
+// $color-danger:        #D9534F !default;
+
+$color-text:          #333333 !default;
+$color-background:    #E0E0E0 !default;
+$color-border:        #CCCCCC !default;
+
+// -------------------------------------------------------------------------- //
+// -- Typography ------------------------------------------------------------ //
+// -------------------------------------------------------------------------- //
+
+$font-helvetica:        "Helvetica Neue", Helvetica, Arial, sans-serif;
+// $font-times:            "Times New Roman", Times, serif;
+// $font-courier:          "Courier New", Courier, monospace;
+
+// $font-lato:             "Lato", sans-serif;
+// $font-lato-bold-italic: "Lato Bold Italic", sans-serif;
+
+$font-base: $font-helvetica;
+
+// -------------------------------------------------------------------------- //
+// -- Border Radius --------------------------------------------------------- //
+// -------------------------------------------------------------------------- //
+
+$border-radius-base: 4px;
+
+$border-radius-button: $border-radius-base;
+$border-radius-table: $border-radius-base;
+$border-radius-input: $border-radius-base;
+$border-radius-misc: $border-radius-base;

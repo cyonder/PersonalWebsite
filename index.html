@@ -1,0 +1,18 @@
+---
+layout: default
+title: Developer, Designer & Blogger
+---
+
+<div class="index">
+  <div class="articles">
+    {% for post in site.posts %}
+      <div class="article">
+        <div class="article-meta">
+          <h5 class="article-title ell"><a href="{{post.url}}">{{post.title}}</a></h5>
+          <h5 class="article-date">{{post.date | date: "%d %b %Y"}}</h5>
+        </div>
+        <h5 class="article-description ell">{{post.description}}</h5>
+      </div>
+    {% endfor %}
+  </div>
+</div>

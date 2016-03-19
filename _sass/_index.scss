@@ -1,0 +1,44 @@
+.index{
+
+  .article{
+    background-color: $color-secondary;
+    height: 7.1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    &:last-child{ margin-bottom: 0; }
+
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .article-meta{
+    display: table;
+    width: 100%;
+
+    &:before{
+      content: '';
+      display: table-column;
+      width: 100%;
+    }
+  }
+
+  h5{ margin-bottom: 0; }
+
+  h5.article-title{
+    color: $color-brand;
+    display: table-cell;
+    font-size: 1.8rem;
+    max-width: 1px;
+  }
+
+  h5.article-date{
+    font-size: 1.8rem;
+    margin-left: 2rem;
+    white-space: nowrap;
+  }
+
+  h5.article-description{
+    font-size: 1.6rem;
+  }
+}

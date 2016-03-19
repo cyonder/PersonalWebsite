@@ -1,0 +1,328 @@
+// -- Use of Glyphicons Filetypes ------------------------------------------- //
+// <span aria-hidden="true" data-icon="&#xe001;" class="glyph-filetypes glyph-filetypes-txt"></span>
+
+@font-face{
+  font-family: "Glyphicons Filetypes";
+  src: url("/fonts/glyphicons/Glyphicons-Filetypes.eot");
+  src: url("/fonts/glyphicons/Glyphicons-Filetypes.eot?#iefix") format("embedded-opentype"),
+       url("/fonts/glyphicons/Glyphicons-Filetypes.woff2") format("woff2"),
+       url("/fonts/glyphicons/Glyphicons-Filetypes.woff") format("woff"),
+       url("/fonts/glyphicons/Glyphicons-Filetypes.ttf") format("truetype"),
+       url("/fonts/glyphicons/Glyphicons-Filetypes.svg#GlyphiconsFiletypes") format("svg");
+}
+
+.glyph-filetypes{
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: "Glyphicons Filetypes";
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.glyph-filetypes.x05{ font-size: 12px }
+
+.glyph-filetypes.x2{ font-size: 48px }
+
+.glyph-filetypes.x3{ font-size: 72px }
+
+.glyph-filetypes.x4{ font-size: 96px }
+
+.glyph-filetypes.x5{ font-size: 120px }
+
+.glyph-filetypes.light:before{ color: #F2F2F2 }
+
+.glyph-filetypes.drop:before{ text-shadow: -1px 1px 3px rgba(0, 0, 0, 0.3) }
+
+.glyph-filetypes.flip{ -moz-transform: scaleX(-1); -o-transform: scaleX(-1); -webkit-transform: scaleX(-1); transform: scaleX(-1); filter: FlipH; -ms-filter: "FlipH" }
+
+.glyph-filetypes.flipv{ -moz-transform: scaleY(-1); -o-transform: scaleY(-1); -webkit-transform: scaleY(-1); transform: scaleY(-1); filter: FlipV; -ms-filter: "FlipV" }
+
+.glyph-filetypes.rotate90{ -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg) }
+
+.glyph-filetypes.rotate180{ -webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); -ms-transform: rotate(180deg); transform: rotate(180deg) }
+
+.glyph-filetypes.rotate270{ -webkit-transform: rotate(270deg); -moz-transform: rotate(270deg); -ms-transform: rotate(270deg); transform: rotate(270deg) }
+
+.glyph-filetypes-txt:before{ content: "\E001" }
+
+.glyph-filetypes-doc:before{ content: "\E002" }
+
+.glyph-filetypes-rtf:before{ content: "\E003" }
+
+.glyph-filetypes-log:before{ content: "\E004" }
+
+.glyph-filetypes-tex:before{ content: "\E005" }
+
+.glyph-filetypes-msg:before{ content: "\E006" }
+
+.glyph-filetypes-text:before{ content: "\E007" }
+
+.glyph-filetypes-wpd:before{ content: "\E008" }
+
+.glyph-filetypes-wps:before{ content: "\E009" }
+
+.glyph-filetypes-docx:before{ content: "\E010" }
+
+.glyph-filetypes-page:before{ content: "\E011" }
+
+.glyph-filetypes-csv:before{ content: "\E012" }
+
+.glyph-filetypes-dat:before{ content: "\E013" }
+
+.glyph-filetypes-tar:before{ content: "\E014" }
+
+.glyph-filetypes-xml:before{ content: "\E015" }
+
+.glyph-filetypes-vcf:before{ content: "\E016" }
+
+.glyph-filetypes-pps:before{ content: "\E017" }
+
+.glyph-filetypes-key:before{ content: "\E018" }
+
+.glyph-filetypes-ppt:before{ content: "\E019" }
+
+.glyph-filetypes-pptx:before{ content: "\E020" }
+
+.glyph-filetypes-sdf:before{ content: "\E021" }
+
+.glyph-filetypes-gbr:before{ content: "\E022" }
+
+.glyph-filetypes-ged:before{ content: "\E023" }
+
+.glyph-filetypes-mp3:before{ content: "\E024" }
+
+.glyph-filetypes-m4a:before{ content: "\E025" }
+
+.glyph-filetypes-waw:before{ content: "\E026" }
+
+.glyph-filetypes-wma:before{ content: "\E027" }
+
+.glyph-filetypes-mpa:before{ content: "\E028" }
+
+.glyph-filetypes-iff:before{ content: "\E029" }
+
+.glyph-filetypes-aif:before{ content: "\E030" }
+
+.glyph-filetypes-ra:before{ content: "\E031" }
+
+.glyph-filetypes-mid:before{ content: "\E032" }
+
+.glyph-filetypes-m3v:before{ content: "\E033" }
+
+.glyph-filetypes-e-3gp:before{ content: "\E034" }
+
+.glyph-filetypes-swf:before{ content: "\E035" }
+
+.glyph-filetypes-avi:before{ content: "\E036" }
+
+.glyph-filetypes-asx:before{ content: "\E037" }
+
+.glyph-filetypes-mp4:before{ content: "\E038" }
+
+.glyph-filetypes-e-3g2:before{ content: "\E039" }
+
+.glyph-filetypes-mpg:before{ content: "\E040" }
+
+.glyph-filetypes-asf:before{ content: "\E041" }
+
+.glyph-filetypes-vob:before{ content: "\E042" }
+
+.glyph-filetypes-wmv:before{ content: "\E043" }
+
+.glyph-filetypes-mov:before{ content: "\E044" }
+
+.glyph-filetypes-srt:before{ content: "\E045" }
+
+.glyph-filetypes-m4v:before{ content: "\E046" }
+
+.glyph-filetypes-flv:before{ content: "\E047" }
+
+.glyph-filetypes-rm:before{ content: "\E048" }
+
+.glyph-filetypes-png:before{ content: "\E049" }
+
+.glyph-filetypes-psd:before{ content: "\E050" }
+
+.glyph-filetypes-psp:before{ content: "\E051" }
+
+.glyph-filetypes-jpg:before{ content: "\E052" }
+
+.glyph-filetypes-tif:before{ content: "\E053" }
+
+.glyph-filetypes-tiff:before{ content: "\E054" }
+
+.glyph-filetypes-gif:before{ content: "\E055" }
+
+.glyph-filetypes-bmp:before{ content: "\E056" }
+
+.glyph-filetypes-tga:before{ content: "\E057" }
+
+.glyph-filetypes-thm:before{ content: "\E058" }
+
+.glyph-filetypes-yuv:before{ content: "\E059" }
+
+.glyph-filetypes-dds:before{ content: "\E060" }
+
+.glyph-filetypes-ai:before{ content: "\E061" }
+
+.glyph-filetypes-eps:before{ content: "\E062" }
+
+.glyph-filetypes-ps:before{ content: "\E063" }
+
+.glyph-filetypes-svg:before{ content: "\E064" }
+
+.glyph-filetypes-pdf:before{ content: "\E065" }
+
+.glyph-filetypes-pct:before{ content: "\E066" }
+
+.glyph-filetypes-indd:before{ content: "\E067" }
+
+.glyph-filetypes-xlr:before{ content: "\E068" }
+
+.glyph-filetypes-xls:before{ content: "\E069" }
+
+.glyph-filetypes-xlsx:before{ content: "\E070" }
+
+.glyph-filetypes-db:before{ content: "\E071" }
+
+.glyph-filetypes-dbf:before{ content: "\E072" }
+
+.glyph-filetypes-mdb:before{ content: "\E073" }
+
+.glyph-filetypes-pdb:before{ content: "\E074" }
+
+.glyph-filetypes-sql:before{ content: "\E075" }
+
+.glyph-filetypes-aacd:before{ content: "\E076" }
+
+.glyph-filetypes-app:before{ content: "\E077" }
+
+.glyph-filetypes-exe:before{ content: "\E078" }
+
+.glyph-filetypes-com:before{ content: "\E079" }
+
+.glyph-filetypes-bat:before{ content: "\E080" }
+
+.glyph-filetypes-apk:before{ content: "\E081" }
+
+.glyph-filetypes-jar:before{ content: "\E082" }
+
+.glyph-filetypes-hsf:before{ content: "\E083" }
+
+.glyph-filetypes-pif:before{ content: "\E084" }
+
+.glyph-filetypes-vb:before{ content: "\E085" }
+
+.glyph-filetypes-cgi:before{ content: "\E086" }
+
+.glyph-filetypes-css:before{ content: "\E087" }
+
+.glyph-filetypes-js:before{ content: "\E088" }
+
+.glyph-filetypes-php:before{ content: "\E089" }
+
+.glyph-filetypes-xhtml:before{ content: "\E090" }
+
+.glyph-filetypes-htm:before{ content: "\E091" }
+
+.glyph-filetypes-html:before{ content: "\E092" }
+
+.glyph-filetypes-asp:before{ content: "\E093" }
+
+.glyph-filetypes-cer:before{ content: "\E094" }
+
+.glyph-filetypes-jsp:before{ content: "\E095" }
+
+.glyph-filetypes-cfm:before{ content: "\E096" }
+
+.glyph-filetypes-aspx:before{ content: "\E097" }
+
+.glyph-filetypes-rss:before{ content: "\E098" }
+
+.glyph-filetypes-csr:before{ content: "\E099" }
+
+.glyph-filetypes-less:before{ content: "\E100" }
+
+.glyph-filetypes-otf:before{ content: "\E101" }
+
+.glyph-filetypes-ttf:before{ content: "\E102" }
+
+.glyph-filetypes-font:before{ content: "\E103" }
+
+.glyph-filetypes-fnt:before{ content: "\E104" }
+
+.glyph-filetypes-eot:before{ content: "\E105" }
+
+.glyph-filetypes-woff:before{ content: "\E106" }
+
+.glyph-filetypes-zip:before{ content: "\E107" }
+
+.glyph-filetypes-zipx:before{ content: "\E108" }
+
+.glyph-filetypes-rar:before{ content: "\E109" }
+
+.glyph-filetypes-targ:before{ content: "\E110" }
+
+.glyph-filetypes-sitx:before{ content: "\E111" }
+
+.glyph-filetypes-deb:before{ content: "\E112" }
+
+.glyph-filetypes-e-7z:before{ content: "\E113" }
+
+.glyph-filetypes-pkg:before{ content: "\E114" }
+
+.glyph-filetypes-rpm:before{ content: "\E115" }
+
+.glyph-filetypes-cbr:before{ content: "\E116" }
+
+.glyph-filetypes-gz:before{ content: "\E117" }
+
+.glyph-filetypes-dmg:before{ content: "\E118" }
+
+.glyph-filetypes-cue:before{ content: "\E119" }
+
+.glyph-filetypes-bin:before{ content: "\E120" }
+
+.glyph-filetypes-iso:before{ content: "\E121" }
+
+.glyph-filetypes-hdf:before{ content: "\E122" }
+
+.glyph-filetypes-vcd:before{ content: "\E123" }
+
+.glyph-filetypes-bak:before{ content: "\E124" }
+
+.glyph-filetypes-tmp:before{ content: "\E125" }
+
+.glyph-filetypes-ics:before{ content: "\E126" }
+
+.glyph-filetypes-msi:before{ content: "\E127" }
+
+.glyph-filetypes-cfg:before{ content: "\E128" }
+
+.glyph-filetypes-ini:before{ content: "\E129" }
+
+.glyph-filetypes-prf:before{ content: "\E130" }
+
+.glyph-filetypes-json:before{ content: "\E131" }
+
+.glyph-filetypes-site:before{ content: "\E132" }
+
+.glyph-filetypes-xap:before{ content: "\E133" }
+
+.glyph-filetypes-api:before{ content: "\E134" }
+
+.glyph-filetypes-ico:before{ content: "\E135" }
+
+.glyph-filetypes-webp:before{ content: "\E136" }
+
+.glyph-filetypes-bpg:before{ content: "\E137" }
+
+.glyph-filetypes-flac:before{ content: "\E138" }
+
+.glyph-filetypes-ogg:before{ content: "\E139" }
+
+.glyph-filetypes-unknown:before{ content: "\E140" }
