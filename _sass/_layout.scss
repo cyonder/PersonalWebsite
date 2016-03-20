@@ -78,7 +78,7 @@ header.site-header{
   }
 }
 
-@media(max-width: 775px){
+@media(max-width: 830px){ // 775px
   header.site-header{
     display: block;
     position: relative;
@@ -112,7 +112,7 @@ header.site-header{
   padding: 2rem;
 }
 
-@media(max-width: 775px){
+@media(max-width: 830px){ // 775px
   .site-content{
     margin-left: 0;
   }
